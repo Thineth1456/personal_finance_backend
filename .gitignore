@@ -1,0 +1,17 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Ruby dependencies and local configuration
+.bundle/
+vendor/bundle/
+
+# Logs and temporary files
+*.log
+tmp/
+
+# Windows files
+Thumbs.db
+Desktop.ini
